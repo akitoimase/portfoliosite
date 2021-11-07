@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="kintoneアプリUI改善案 | 今瀬明仁のポートフォリオ">
+  <title>kintoneアプリUI改善案 | 今瀬明仁のポートフォリオ</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+</head>
+<body>
+  <header>
+    <div>
+      <a class="logo" href="/"><img src="images/logo_.png" alt="今瀬明仁のポートフォリオ"></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">ポートフォリオ</a></li>
+          <li><a href="profile.html">プロフィール</a></li>
+          <!-- <li><a href="reason.html">志望動機</a></li> -->
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="pc">
+    <div class="back_img kintone_app"></div>
+
+    <section>
+      <h1>kintoneアプリUI改善案</h1>
+      <p>
+        「直感的な使いやすさ、わかりやすさの向上」を目的とした、アプリ版kintoneの主要画面のUI改善を作成しました。<br>
+        アプリを使用した際に、PCでの使い勝手に劣ることなく直感的な操作を実現させるために、情報の整理により構造の理解を助けることや、アクセス性の向上などを計りました。<br>
+        <br>
+        Adobe XDのデザイン共有機能を使用して、UXの流れを確認できるようにしてありますので、是非こちらもご覧ください。※下記URL参照<br>
+        <a class="link" href="https://xd.adobe.com/view/a6930884-4683-490a-a70f-71055b4c60c3-f3c0/" target="_blank">https://xd.adobe.com/view/a6930884-4683-490a-a70f-71055b4c60c3-f3c0/</a>
+      </p>
+
+      <div class="image">
+        <img src="images/ui_app_design.jpg">
+        <span>主要画面デザイン</span>
+      </div>
+
+      <div>
+        <h2>課題とデザインのテーマ</h2>
+        <p>
+          現在のデザインは、左側のサイドバーにナビゲーションが集約されており、そういったことで全体的な構造が隠れており直感的に把握しにくいのではないか、また「サイドバーを開く」という行為が繰り返されることで、UIの配置場所が左上なこともあり、ストレスに感じるのではないかといった仮説を課題として考えました。<br>
+          <br>
+          そのような課題を踏まえ、「直感的な使いやすさ、わかりやすさの向上」という目的をクリアするために意識した全体的なデザインのテーマは以下の３点です。
+        </p>
+        <ul class="list_text">
+          <li><span>・</span><strong>テーマ1:</strong> 情報の整理</li>
+          <li><span>・</span><strong>テーマ2:</strong> シンプルデザイン</li>
+          <li><span>・</span><strong>テーマ3:</strong> アクセス性と可読性の向上</li>
+        </ul>
+        <p>これらのテーマをもとに、モバイルアプリの各主要画面のUIデザインを考えましたので、説明させていただきます。</p>
+      </div>
+
+      <div>
+        <h2>フッターナビゲーション</h2>
+        <p>
+          まず第一に、主要な要素を認識してもらうために、それぞれをタブ形式でフッターのナビゲーションを配置することで、情報の整理を行いました。<br>
+          <br>
+          こうすることで、このアプリはどういった構造になっているのか、何をするものなのかを直感的に理解させることに役立つと考えました。各導線は以下の画像の通りです。
+        </p>
+        <div class="image">
+          <img src="images/ui_nav01.jpg">
+        </div>
+        <div class="image">
+          <img src="images/ui_nav02.jpg">
+        </div>
+        <p>次に、それぞれの画面について説明させていただきます。</p>
+      </div>
+
+      <div>
+        <h2>ポータル</h2>
+        <p>ポータルの画面を、以下の画像「After」のようにデザインしました。</p>
+        <div class="image">
+          <img src="images/ui_portal01.jpg">
+        </div>
+        <p>
+          「お知らせ」を重要な要素として変わらず画面最上部に配置しておりますが、「未処理」の内容があった場合はその上に表示するようにデザインしています。<br>
+          「未処理」の内容と「通知」の二つを最重要要素と位置づけ、「未処理」はポータル画面の最も目立つ箇所にリスト表示されるようにしました（「通知」はフッターのナビゲーションから）。
+        </p>
+        <div class="image">
+          <img src="images/ui_portal02.jpg">
+        </div>
+        <div class="image">
+          <img src="images/ui_portal04.jpg">
+        </div>
+        <p>今回は「課題」のところでも触れた通り、左側サイドバーをなくし、その中のUIを以下の画像の通り、Afterデザインのポータル画面に移動させました。</p>
+        <div class="image">
+          <img src="images/ui_portal03.jpg">
+        </div>
+        <p>
+          ポイントは、Beforeの「サイドバーを開く」という行為無しに、デフォルトのポータル画面で必要なことが集約されていることです。<br>
+          「設定」、「検索」、「未処理」、「お知らせ」があり、そして「アプリ」「スペース」はそれぞれの一覧画面を作成したもののポータルでもリストし、また通知があった際にもフッターのナビゲーションで確認できる（後述）ことから、必要な全要素をポータルの画面に集約させることができたと考えます。<br>
+          アプリを開いた瞬間に、今何が起きているかがわかり、それぞれへのアクセスを直感的にわかりやすくすることで、ユーザーが次のアクションを起こしやすくなることを目的に設計しました。
+        </p>
+      </div>
+
+      <div>
+        <h2>スペース</h2>
+        <p>
+          今回は、元々のアプリデザインには存在しない、「スペース」と「アプリ」の一覧画面をそれぞれ作成し、以下の画像のようにデザインしました。フッターのナビゲーションからアクセスします。<br>
+          <br>
+          目的は、やはりkintoneでは「スペース」と「アプリ」の二つは最も重要な要素でありますので、全体の情報整理としてそれぞれのタブ（一覧画面）を作成することで独立させ、スペースはコミュニケーションの場、アプリはデータ管理の場と世界を分け、ユーザーが混乱せずにこの二つの世界があることを直感的に理解することを助けるためです。また、単純なアクセス性の向上も目的としています。
+        </p>
+        <div class="image">
+          <img src="images/ui_space_list01.jpg">
+        </div>
+        <p>アクセス性の向上のために、以下の画像ようにタブで一覧を振り分けるようなデザインを考えました。</p>
+        <div class="image">
+          <img src="images/ui_space_list02.jpg">
+        </div>
+        <h3>各スペース画面のデザイン</h3>
+        <p>
+          各スペースの画面を、以下の画像「After」のようにデザインしました。<br>
+          Beforeの状態を基本的に踏襲しながら、可読性の向上を目的にデザインしました。
+        </p>
+        <div class="image">
+          <img src="images/ui_space01.jpg">
+        </div>
+        <div class="image">
+          <img src="images/ui_space02.jpg">
+        </div>
+        <p>Beforeの「…」では「お気に入りの解除」の機能のみなので、Afterでは「…」を無くし、☆マークの再度クリックで解除できるようにデザインしています。</p>
+        <div class="image">
+          <img src="images/ui_space04.jpg">
+        </div>
+        <p>各タブのデザインは以下の通りです（※アプリのリスト表示デザインについては、後述の【アプリ】の項目で解説）。</p>
+        <div class="image">
+          <img src="images/ui_space03.jpg">
+        </div>
+      </div>
+
+      <div>
+        <h2>アプリ</h2>
+        <p>
+          「スペース」の一覧画面同様、「アプリ」の一覧画面を作成し、以下の画像のようにデザインしました。<br>
+          アプリのリストをこのようにデザインしたのは、アプリをよりアプリらしく見せるために、ユーザーがスマートフォンの画面でのアプリ一覧で見慣れているであろう見た目に近づけました。
+        </p>
+        <div class="image">
+          <img src="images/ui_app_list01.jpg">
+        </div>
+        <p>
+          アクセス性の向上のために、以下の画像のようにタブで一覧を振り分けるようなデザインを考えました。<br>
+          アプリの一覧では現在のデザインには無い「最近」タブを追加しており、利便性の向上をはかりました。
+        </p>
+        <div class="image">
+          <img src="images/ui_app_list02.jpg">
+        </div>
+        <h3>各アプリ画面のデザイン</h3>
+        <p>
+          各アプリの画面を、以下の画像「After」のようにデザインしました。<br>
+          「スペース」同様、Beforeの状態を基本的に踏襲しながら、可読性の向上を目的にデザインしました。
+        </p>
+        <div class="image">
+          <img src="images/ui_app01.jpg">
+        </div>
+        <div class="image">
+          <img src="images/ui_app02.jpg">
+        </div>
+        <div class="image">
+          <img src="images/ui_app04.jpg">
+        </div>
+        <div class="image">
+          <img src="images/ui_app03.jpg">
+        </div>
+      </div>
+
+      <div>
+        <h2>通知</h2>
+        <p>
+          ポータルの画面を、以下の画像「After」のようにデザインしました。<br>
+          見た目のデザインは主にBeforeを踏襲し、可読性の向上を目指しました。
+        </p>
+        <div class="image">
+          <img src="images/ui_notice01.jpg">
+        </div>
+        <p>
+          通知は右側サイドバーに配置することをやめ、フッターナビゲーションの真ん中のタブに配置させました。<br>
+          通知は最も重要な要素であることから、通知があったことにより気づきやすくさせ、さらにスマホでは通知を開くボタンが現在の右上の配置よりも、画面下部に配置することで親指に近づかせ、アクセスするストレスを軽減させる必要があると考えました。
+        </p>
+        <div class="image">
+          <img src="images/ui_notice03.jpg">
+        </div>
+        <h3>フッターナビゲーションの通知アイコン</h3>
+        <p>
+          通知があった際にはフッターナビゲーション内のアイコンに、以下の画像のように通知があることを表現します。<br>
+          こうすることで、通知があることが気になり、すぐに確認しに行きたくなるようになると考えました。
+        </p>
+        <div class="image">
+          <img src="images/ui_notice02.jpg">
+        </div>
+      </div>
+
+      <div>
+        <h2>アカウント（ピープル）</h2>
+        <p>
+          「ピープル」の自分の画面を「アカウント」と表現し、フッターナビゲーションにも配置させ、画面を以下の画像のようにデザインしました。
+        </p>
+        <div class="image">
+          <img src="images/ui_account01.jpg">
+        </div>
+        <p>
+          デザインの変更は以下の画像の通りですが、一つ「カバー写真」という機能を追加しました。<br>
+          目的は、よりメンバーの個性を演出することで、プロフィールの写真以外にも設定できるようなデザインを考えました。
+        </p>
+        <div class="image">
+          <img src="images/ui_account02.jpg">
+        </div>
+        <p>ピープルの情報は以下の画像のようにデザインを変え、Beforeのポップアップ式のものから、アコーディオンによる開閉式のものへ変更しました。</p>
+        <div class="image">
+          <img src="images/ui_account03.jpg">
+        </div>
+        <div class="image">
+          <img src="images/ui_account04.jpg">
+        </div>
+        <h3>ピープル</h3>
+        <p>上記の「アカウント」画面のデザインを踏襲し、自分以外の人の画面（ピープル）は以下の画像のようにデザインしました。</p>
+        <div class="image">
+          <img src="images/ui_people01.jpg">
+        </div>
+        <div class="image">
+          <img src="images/ui_people02.jpg">
+        </div>
+      </div>
+
+      <div>
+        <h2>まとめ</h2>
+        <p>
+          以上が、「直感的な使いやすさ、わかりやすさの向上」を目的とした、UI改善案になります。<br>
+          アプリの重要な要素を整理し、それぞれをフッターのナビゲーションで振り分けることが主な施策でしたが、今回はそれに伴い、追加機能は最小限に抑え、各画面のUIデザインを考えました。<br>
+          （機能面の改善案はこちら→<a class="link" href="kintone_design.html">kintone設計改善案</a>）<br>
+          以上を持ちましてUI改善案の紹介とさせていただきます。
+        </p>
+      </div>
+
+    </section>
+  </main>
+
+  <main class="mobile">
+    <p>PCからの閲覧をよろしくお願いいたします。</p>
+  </main>
+
+  <footer>
+    <p>© Akito Imase 2021</p>
+  </footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script> window.jQuery || document.write('<script src="js/jquery-3.4.1.min.js"><\/script>') </script>
+  <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
